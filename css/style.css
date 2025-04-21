@@ -130,23 +130,46 @@ nav ul li a:hover {
 }
 
 /* Hero section */
+
+#hero {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+#hero .container {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+
+
+
 #hero {
     background: linear-gradient(rgba(106, 13, 173, 0.8), rgba(0, 119, 182, 0.8)), url('../images/hero-bg.jpg');
     background-size: cover;
     background-position: center;
     color: white;
     text-align: center;
-    padding: 100px 0;
+    padding-top: 0;      /* suppression du padding haut */
+    padding-bottom: 0;   /* suppression du padding bas */
+    margin-top: 0;       /* suppression marge haut si ajoutée par défaut */
+    margin-bottom: 0;    /* suppression marge bas si ajoutée par défaut */
 }
 
 #hero h1 {
     font-size: 3rem;
     margin-bottom: 10px;
+    margin-top: 0;       /* suppression marge haut */
 }
 
 #hero h2 {
     font-size: 1.8rem;
     margin-bottom: 20px;
+    margin-top: 0;       /* suppression marge haut */
     font-weight: 400;
 }
 
