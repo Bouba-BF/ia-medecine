@@ -9,10 +9,15 @@
   flex-wrap: wrap;
 }
 
-.banner-image img,
-.logo-image img {
+.banner-image img {
   width: 100px;
   height: 100px;
+  object-fit: contain;
+}
+
+.logo-image img {
+  width: 50px;
+  height: 50px;
   object-fit: contain;
 }
 
