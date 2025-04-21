@@ -24,6 +24,12 @@
   object-fit: contain; /* Garde les proportions sans déformer */
 }
 
+.banner-right {
+  flex: 0 0 30%;
+}
+.banner-left {
+  flex: 0 0 70%;
+}
 
 
 
